@@ -1,0 +1,125 @@
+"Praat chronological TextGrid text file"
+0.0 166.869   ! Time domain.
+2   ! Number of tiers.
+"IntervalTier" "speaker_1-kaldi-words" 0.0 166.869
+"IntervalTier" "speaker_0-kaldi-words" 0.0 166.869
+
+! :speaker_1-kaldi-words
+1 0.0 57.96
+""
+
+! :speaker_0-kaldi-words
+2 0.0 101.22
+""
+
+! :speaker_1-kaldi-words
+1 57.96 105.72
+"Me i heard he got up today again."
+
+! :speaker_0-kaldi-words
+2 101.22 105.72
+"Yeah so the little girl and boy was skateboarding."
+
+! :speaker_0-kaldi-words
+2 105.72 107.71
+""
+
+! :speaker_1-kaldi-words
+1 105.72 166.869
+""
+
+! :speaker_0-kaldi-words
+2 107.71 109.92
+"And then he bumped into the trend egg."
+
+! :speaker_0-kaldi-words
+2 109.92 112.27
+""
+
+! :speaker_0-kaldi-words
+2 112.27 116.7
+"And then he knocked on its to and tried to heal it fills anything inside."
+
+! :speaker_0-kaldi-words
+2 116.7 118.79
+""
+
+! :speaker_0-kaldi-words
+2 118.79 120.86
+"I then they had cracked and what he was shocked."
+
+! :speaker_0-kaldi-words
+2 120.86 122.63
+""
+
+! :speaker_0-kaldi-words
+2 122.63 124.94
+"I got a dinosaur came out he was shocked."
+
+! :speaker_0-kaldi-words
+2 124.94 127.14
+""
+
+! :speaker_0-kaldi-words
+2 127.14 130.65
+"Then the dinosaur store top of the little green boy and he was on the ground."
+
+! :speaker_0-kaldi-words
+2 130.65 132.72
+""
+
+! :speaker_0-kaldi-words
+2 132.72 135.87
+"Then the little boy hid behind a tree."
+
+! :speaker_0-kaldi-words
+2 135.87 137.94
+""
+
+! :speaker_0-kaldi-words
+2 137.94 139.41
+"And the dinosaur was sad."
+
+! :speaker_0-kaldi-words
+2 139.41 140.76
+""
+
+! :speaker_0-kaldi-words
+2 140.76 144.84
+"The dinosaur started went on the floor."
+
+! :speaker_0-kaldi-words
+2 144.84 147.78
+""
+
+! :speaker_0-kaldi-words
+2 147.78 151.0
+"The little boy realized he was sad than he said."
+
+! :speaker_0-kaldi-words
+2 151.0 152.93
+""
+
+! :speaker_0-kaldi-words
+2 152.93 155.15
+"As in the boy proud of the dinosaur in the head."
+
+! :speaker_0-kaldi-words
+2 155.15 156.82
+""
+
+! :speaker_0-kaldi-words
+2 156.82 158.74
+"I then fed the dinosaur his bottle."
+
+! :speaker_0-kaldi-words
+2 158.74 160.22
+""
+
+! :speaker_0-kaldi-words
+2 160.22 161.44
+"And then he loved."
+
+! :speaker_0-kaldi-words
+2 161.44 166.869
+""

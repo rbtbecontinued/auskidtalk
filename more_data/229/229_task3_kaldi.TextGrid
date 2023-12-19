@@ -1,0 +1,1181 @@
+"Praat chronological TextGrid text file"
+0.0 166.869   ! Time domain.
+2   ! Number of tiers.
+"IntervalTier" "speaker_1-kaldi-words" 0.0 166.869
+"IntervalTier" "speaker_0-kaldi-words" 0.0 166.869
+
+! :speaker_1-kaldi-words
+1 0.0 0.16
+"this"
+
+! :speaker_0-kaldi-words
+2 0.0 7.17
+""
+
+! :speaker_1-kaldi-words
+1 0.16 0.28
+"is"
+
+! :speaker_1-kaldi-words
+1 0.28 0.29
+""
+
+! :speaker_1-kaldi-words
+1 0.29 0.32
+"a"
+
+! :speaker_1-kaldi-words
+1 0.32 0.35
+""
+
+! :speaker_1-kaldi-words
+1 0.35 0.51
+"bit"
+
+! :speaker_1-kaldi-words
+1 0.51 1.08
+"much"
+
+! :speaker_1-kaldi-words
+1 1.08 3.33
+""
+
+! :speaker_1-kaldi-words
+1 3.33 3.43
+"a"
+
+! :speaker_1-kaldi-words
+1 3.43 3.98
+"picture"
+
+! :speaker_1-kaldi-words
+1 3.98 4.45
+"there"
+
+! :speaker_1-kaldi-words
+1 4.45 5.4
+""
+
+! :speaker_1-kaldi-words
+1 5.4 5.83
+"things"
+
+! :speaker_1-kaldi-words
+1 5.83 5.95
+""
+
+! :speaker_1-kaldi-words
+1 5.95 6.36
+"your"
+
+! :speaker_1-kaldi-words
+1 6.36 6.66
+"green"
+
+! :speaker_1-kaldi-words
+1 6.66 7.02
+"people"
+
+! :speaker_1-kaldi-words
+1 7.02 12.79
+""
+
+! :speaker_0-kaldi-words
+2 7.17 7.37
+"she"
+
+! :speaker_0-kaldi-words
+2 7.37 8.18
+""
+
+! :speaker_0-kaldi-words
+2 8.18 8.39
+"looks"
+
+! :speaker_0-kaldi-words
+2 8.39 8.51
+"like"
+
+! :speaker_0-kaldi-words
+2 8.51 8.57
+"a"
+
+! :speaker_0-kaldi-words
+2 8.57 8.87
+"mini"
+
+! :speaker_0-kaldi-words
+2 8.87 9.32
+"hope"
+
+! :speaker_0-kaldi-words
+2 9.32 29.96
+""
+
+! :speaker_1-kaldi-words
+1 12.79 13.13
+"this"
+
+! :speaker_1-kaldi-words
+1 13.13 13.18
+""
+
+! :speaker_1-kaldi-words
+1 13.18 13.6
+"is"
+
+! :speaker_1-kaldi-words
+1 13.6 13.81
+""
+
+! :speaker_1-kaldi-words
+1 13.81 13.96
+"a"
+
+! :speaker_1-kaldi-words
+1 13.96 14.35
+"very"
+
+! :speaker_1-kaldi-words
+1 14.35 14.71
+"short"
+
+! :speaker_1-kaldi-words
+1 14.71 15.07
+"maybe"
+
+! :speaker_1-kaldi-words
+1 15.07 15.26
+"it's"
+
+! :speaker_1-kaldi-words
+1 15.26 15.78
+""
+
+! :speaker_1-kaldi-words
+1 15.78 15.86
+"a"
+
+! :speaker_1-kaldi-words
+1 15.86 15.91
+""
+
+! :speaker_1-kaldi-words
+1 15.91 16.24
+"minute"
+
+! :speaker_1-kaldi-words
+1 16.24 16.66
+"loan"
+
+! :speaker_1-kaldi-words
+1 16.66 17.17
+""
+
+! :speaker_1-kaldi-words
+1 17.17 17.53
+"possibly"
+
+! :speaker_1-kaldi-words
+1 17.53 17.92
+"bus"
+
+! :speaker_1-kaldi-words
+1 17.92 19.3
+""
+
+! :speaker_1-kaldi-words
+1 19.3 19.81
+"about"
+
+! :speaker_1-kaldi-words
+1 19.81 19.93
+""
+
+! :speaker_1-kaldi-words
+1 19.93 20.05
+"a"
+
+! :speaker_1-kaldi-words
+1 20.05 20.65
+"boy"
+
+! :speaker_1-kaldi-words
+1 20.65 20.71
+""
+
+! :speaker_1-kaldi-words
+1 20.71 20.86
+"and"
+
+! :speaker_1-kaldi-words
+1 20.86 21.1
+"his"
+
+! :speaker_1-kaldi-words
+1 21.1 21.31
+"new"
+
+! :speaker_1-kaldi-words
+1 21.31 21.82
+"friend"
+
+! :speaker_1-kaldi-words
+1 21.82 24.16
+""
+
+! :speaker_1-kaldi-words
+1 24.16 24.34
+"all"
+
+! :speaker_1-kaldi-words
+1 24.34 24.46
+"you"
+
+! :speaker_1-kaldi-words
+1 24.46 24.58
+"have"
+
+! :speaker_1-kaldi-words
+1 24.58 24.67
+"to"
+
+! :speaker_1-kaldi-words
+1 24.67 24.97
+"do"
+
+! :speaker_1-kaldi-words
+1 24.97 25.18
+"this"
+
+! :speaker_1-kaldi-words
+1 25.18 25.3
+"is"
+
+! :speaker_1-kaldi-words
+1 25.3 25.39
+"the"
+
+! :speaker_1-kaldi-words
+1 25.39 25.6
+"whole"
+
+! :speaker_1-kaldi-words
+1 25.6 25.63
+""
+
+! :speaker_1-kaldi-words
+1 25.63 26.05
+"activity"
+
+! :speaker_1-kaldi-words
+1 26.05 26.2
+"or"
+
+! :speaker_1-kaldi-words
+1 26.2 26.31
+"you"
+
+! :speaker_1-kaldi-words
+1 26.31 26.44
+"have"
+
+! :speaker_1-kaldi-words
+1 26.44 26.5
+"to"
+
+! :speaker_1-kaldi-words
+1 26.5 26.74
+"do"
+
+! :speaker_1-kaldi-words
+1 26.74 26.77
+""
+
+! :speaker_1-kaldi-words
+1 26.77 26.98
+"is"
+
+! :speaker_1-kaldi-words
+1 26.98 27.28
+"watch"
+
+! :speaker_1-kaldi-words
+1 27.28 27.43
+"this"
+
+! :speaker_1-kaldi-words
+1 27.43 27.7
+"short"
+
+! :speaker_1-kaldi-words
+1 27.7 28.17
+"video"
+
+! :speaker_1-kaldi-words
+1 28.17 28.18
+""
+
+! :speaker_1-kaldi-words
+1 28.18 28.36
+"and"
+
+! :speaker_1-kaldi-words
+1 28.36 28.63
+"then"
+
+! :speaker_1-kaldi-words
+1 28.63 28.66
+""
+
+! :speaker_1-kaldi-words
+1 28.66 28.84
+"when"
+
+! :speaker_1-kaldi-words
+1 28.84 28.96
+"it's"
+
+! :speaker_1-kaldi-words
+1 28.96 29.23
+"nice"
+
+! :speaker_1-kaldi-words
+1 29.23 29.41
+"tell"
+
+! :speaker_1-kaldi-words
+1 29.41 29.53
+"me"
+
+! :speaker_1-kaldi-words
+1 29.53 29.68
+"what"
+
+! :speaker_1-kaldi-words
+1 29.68 30.4
+"happens"
+
+! :speaker_0-kaldi-words
+2 29.96 30.28
+"and"
+
+! :speaker_0-kaldi-words
+2 30.28 30.29
+""
+
+! :speaker_0-kaldi-words
+2 30.29 30.72
+"singer"
+
+! :speaker_1-kaldi-words
+1 30.4 31.14
+""
+
+! :speaker_0-kaldi-words
+2 30.72 40.64
+""
+
+! :speaker_1-kaldi-words
+1 31.14 31.29
+"in"
+
+! :speaker_1-kaldi-words
+1 31.29 31.35
+"the"
+
+! :speaker_1-kaldi-words
+1 31.35 31.59
+"right"
+
+! :speaker_1-kaldi-words
+1 31.59 31.89
+"order"
+
+! :speaker_1-kaldi-words
+1 31.89 32.16
+"as"
+
+! :speaker_1-kaldi-words
+1 32.16 32.25
+"he"
+
+! :speaker_1-kaldi-words
+1 32.25 32.7
+"can"
+
+! :speaker_1-kaldi-words
+1 32.7 32.76
+""
+
+! :speaker_1-kaldi-words
+1 32.76 33.39
+"and"
+
+! :speaker_1-kaldi-words
+1 33.39 33.72
+""
+
+! :speaker_1-kaldi-words
+1 33.72 33.9
+"i"
+
+! :speaker_1-kaldi-words
+1 33.9 33.92
+""
+
+! :speaker_1-kaldi-words
+1 33.92 34.17
+"will"
+
+! :speaker_1-kaldi-words
+1 34.17 34.48
+"also"
+
+! :speaker_1-kaldi-words
+1 34.48 35.81
+""
+
+! :speaker_1-kaldi-words
+1 35.81 36.13
+"your"
+
+! :speaker_1-kaldi-words
+1 36.13 36.7
+"purchase"
+
+! :speaker_1-kaldi-words
+1 36.7 37.24
+""
+
+! :speaker_1-kaldi-words
+1 37.24 37.81
+"from"
+
+! :speaker_1-kaldi-words
+1 37.81 37.93
+""
+
+! :speaker_1-kaldi-words
+1 37.93 38.35
+"the"
+
+! :speaker_1-kaldi-words
+1 38.35 38.47
+""
+
+! :speaker_1-kaldi-words
+1 38.47 39.03
+"video"
+
+! :speaker_1-kaldi-words
+1 39.03 40.92
+""
+
+! :speaker_0-kaldi-words
+2 40.64 41.0
+"ok"
+
+! :speaker_1-kaldi-words
+1 40.92 41.04
+"i'd"
+
+! :speaker_0-kaldi-words
+2 41.0 44.07
+""
+
+! :speaker_1-kaldi-words
+1 41.04 41.22
+"like"
+
+! :speaker_1-kaldi-words
+1 41.22 41.34
+"to"
+
+! :speaker_1-kaldi-words
+1 41.34 41.53
+"talk"
+
+! :speaker_1-kaldi-words
+1 41.53 41.63
+""
+
+! :speaker_1-kaldi-words
+1 41.63 41.93
+"memory"
+
+! :speaker_1-kaldi-words
+1 41.93 57.96
+""
+
+! :speaker_0-kaldi-words
+2 44.07 44.4
+"yeah"
+
+! :speaker_0-kaldi-words
+2 44.4 101.22
+""
+
+! :speaker_1-kaldi-words
+1 57.96 58.59
+"me"
+
+! :speaker_1-kaldi-words
+1 58.59 97.67
+""
+
+! :speaker_1-kaldi-words
+1 97.67 97.79
+"i"
+
+! :speaker_1-kaldi-words
+1 97.79 97.8
+""
+
+! :speaker_1-kaldi-words
+1 97.8 98.09
+"heard"
+
+! :speaker_1-kaldi-words
+1 98.09 99.56
+""
+
+! :speaker_1-kaldi-words
+1 99.56 99.83
+"he"
+
+! :speaker_1-kaldi-words
+1 99.83 100.08
+"got"
+
+! :speaker_1-kaldi-words
+1 100.08 100.31
+"up"
+
+! :speaker_1-kaldi-words
+1 100.31 100.73
+"today"
+
+! :speaker_1-kaldi-words
+1 100.73 105.48
+""
+
+! :speaker_0-kaldi-words
+2 101.22 101.58
+"yeah"
+
+! :speaker_0-kaldi-words
+2 101.58 103.47
+""
+
+! :speaker_0-kaldi-words
+2 103.47 103.92
+"so"
+
+! :speaker_0-kaldi-words
+2 103.92 104.04
+"the"
+
+! :speaker_0-kaldi-words
+2 104.04 104.28
+"little"
+
+! :speaker_0-kaldi-words
+2 104.28 104.49
+"girl"
+
+! :speaker_0-kaldi-words
+2 104.49 104.58
+"and"
+
+! :speaker_0-kaldi-words
+2 104.58 104.76
+"boy"
+
+! :speaker_0-kaldi-words
+2 104.76 104.9
+"was"
+
+! :speaker_0-kaldi-words
+2 104.9 104.91
+""
+
+! :speaker_0-kaldi-words
+2 104.91 105.72
+"skateboarding"
+
+! :speaker_1-kaldi-words
+1 105.48 105.72
+"again"
+
+! :speaker_1-kaldi-words
+1 105.72 166.869
+""
+
+! :speaker_0-kaldi-words
+2 105.72 107.71
+""
+
+! :speaker_0-kaldi-words
+2 107.71 107.87
+"and"
+
+! :speaker_0-kaldi-words
+2 107.87 108.06
+"then"
+
+! :speaker_0-kaldi-words
+2 108.06 108.18
+"he"
+
+! :speaker_0-kaldi-words
+2 108.18 108.54
+"bumped"
+
+! :speaker_0-kaldi-words
+2 108.54 108.78
+"into"
+
+! :speaker_0-kaldi-words
+2 108.78 109.14
+"the"
+
+! :speaker_0-kaldi-words
+2 109.14 109.22
+""
+
+! :speaker_0-kaldi-words
+2 109.22 109.56
+"trend"
+
+! :speaker_0-kaldi-words
+2 109.56 109.58
+""
+
+! :speaker_0-kaldi-words
+2 109.58 109.92
+"egg"
+
+! :speaker_0-kaldi-words
+2 109.92 112.27
+""
+
+! :speaker_0-kaldi-words
+2 112.27 112.48
+"and"
+
+! :speaker_0-kaldi-words
+2 112.48 112.49
+""
+
+! :speaker_0-kaldi-words
+2 112.49 112.71
+"then"
+
+! :speaker_0-kaldi-words
+2 112.71 113.07
+"he"
+
+! :speaker_0-kaldi-words
+2 113.07 113.4
+"knocked"
+
+! :speaker_0-kaldi-words
+2 113.4 113.58
+"on"
+
+! :speaker_0-kaldi-words
+2 113.58 113.88
+"its"
+
+! :speaker_0-kaldi-words
+2 113.88 113.91
+""
+
+! :speaker_0-kaldi-words
+2 113.91 114.3
+"to"
+
+! :speaker_0-kaldi-words
+2 114.3 114.36
+""
+
+! :speaker_0-kaldi-words
+2 114.36 114.69
+"and"
+
+! :speaker_0-kaldi-words
+2 114.69 115.02
+"tried"
+
+! :speaker_0-kaldi-words
+2 115.02 115.08
+"to"
+
+! :speaker_0-kaldi-words
+2 115.08 115.44
+"heal"
+
+! :speaker_0-kaldi-words
+2 115.44 115.48
+""
+
+! :speaker_0-kaldi-words
+2 115.48 115.65
+"it"
+
+! :speaker_0-kaldi-words
+2 115.65 115.86
+"fills"
+
+! :speaker_0-kaldi-words
+2 115.86 115.87
+""
+
+! :speaker_0-kaldi-words
+2 115.87 116.19
+"anything"
+
+! :speaker_0-kaldi-words
+2 116.19 116.7
+"inside"
+
+! :speaker_0-kaldi-words
+2 116.7 118.79
+""
+
+! :speaker_0-kaldi-words
+2 118.79 118.97
+"i"
+
+! :speaker_0-kaldi-words
+2 118.97 118.98
+""
+
+! :speaker_0-kaldi-words
+2 118.98 119.21
+"then"
+
+! :speaker_0-kaldi-words
+2 119.21 119.35
+"they"
+
+! :speaker_0-kaldi-words
+2 119.35 119.48
+"had"
+
+! :speaker_0-kaldi-words
+2 119.48 119.9
+"cracked"
+
+! :speaker_0-kaldi-words
+2 119.9 120.02
+"and"
+
+! :speaker_0-kaldi-words
+2 120.02 120.11
+"what"
+
+! :speaker_0-kaldi-words
+2 120.11 120.23
+"he"
+
+! :speaker_0-kaldi-words
+2 120.23 120.38
+"was"
+
+! :speaker_0-kaldi-words
+2 120.38 120.86
+"shocked"
+
+! :speaker_0-kaldi-words
+2 120.86 122.63
+""
+
+! :speaker_0-kaldi-words
+2 122.63 122.78
+"i"
+
+! :speaker_0-kaldi-words
+2 122.78 122.96
+"got"
+
+! :speaker_0-kaldi-words
+2 122.96 123.02
+"a"
+
+! :speaker_0-kaldi-words
+2 123.02 123.44
+"dinosaur"
+
+! :speaker_0-kaldi-words
+2 123.44 123.68
+"came"
+
+! :speaker_0-kaldi-words
+2 123.68 123.89
+"out"
+
+! :speaker_0-kaldi-words
+2 123.89 123.92
+""
+
+! :speaker_0-kaldi-words
+2 123.92 124.07
+"he"
+
+! :speaker_0-kaldi-words
+2 124.07 124.31
+"was"
+
+! :speaker_0-kaldi-words
+2 124.31 124.43
+""
+
+! :speaker_0-kaldi-words
+2 124.43 124.94
+"shocked"
+
+! :speaker_0-kaldi-words
+2 124.94 127.14
+""
+
+! :speaker_0-kaldi-words
+2 127.14 127.43
+"then"
+
+! :speaker_0-kaldi-words
+2 127.43 127.5
+"the"
+
+! :speaker_0-kaldi-words
+2 127.5 127.98
+"dinosaur"
+
+! :speaker_0-kaldi-words
+2 127.98 127.99
+""
+
+! :speaker_0-kaldi-words
+2 127.99 128.31
+"store"
+
+! :speaker_0-kaldi-words
+2 128.31 128.58
+"top"
+
+! :speaker_0-kaldi-words
+2 128.58 128.82
+"of"
+
+! :speaker_0-kaldi-words
+2 128.82 128.94
+"the"
+
+! :speaker_0-kaldi-words
+2 128.94 129.15
+"little"
+
+! :speaker_0-kaldi-words
+2 129.15 129.36
+"green"
+
+! :speaker_0-kaldi-words
+2 129.36 129.37
+""
+
+! :speaker_0-kaldi-words
+2 129.37 129.6
+"boy"
+
+! :speaker_0-kaldi-words
+2 129.6 129.72
+"and"
+
+! :speaker_0-kaldi-words
+2 129.72 129.87
+"he"
+
+! :speaker_0-kaldi-words
+2 129.87 130.05
+"was"
+
+! :speaker_0-kaldi-words
+2 130.05 130.14
+"on"
+
+! :speaker_0-kaldi-words
+2 130.14 130.2
+"the"
+
+! :speaker_0-kaldi-words
+2 130.2 130.65
+"ground"
+
+! :speaker_0-kaldi-words
+2 130.65 132.72
+""
+
+! :speaker_0-kaldi-words
+2 132.72 133.17
+"then"
+
+! :speaker_0-kaldi-words
+2 133.17 133.38
+"the"
+
+! :speaker_0-kaldi-words
+2 133.38 133.47
+""
+
+! :speaker_0-kaldi-words
+2 133.47 133.68
+"little"
+
+! :speaker_0-kaldi-words
+2 133.68 134.13
+"boy"
+
+! :speaker_0-kaldi-words
+2 134.13 134.85
+""
+
+! :speaker_0-kaldi-words
+2 134.85 135.12
+"hid"
+
+! :speaker_0-kaldi-words
+2 135.12 135.42
+"behind"
+
+! :speaker_0-kaldi-words
+2 135.42 135.48
+"a"
+
+! :speaker_0-kaldi-words
+2 135.48 135.87
+"tree"
+
+! :speaker_0-kaldi-words
+2 135.87 137.94
+""
+
+! :speaker_0-kaldi-words
+2 137.94 138.07
+"and"
+
+! :speaker_0-kaldi-words
+2 138.07 138.15
+"the"
+
+! :speaker_0-kaldi-words
+2 138.15 138.69
+"dinosaur"
+
+! :speaker_0-kaldi-words
+2 138.69 138.87
+"was"
+
+! :speaker_0-kaldi-words
+2 138.87 139.41
+"sad"
+
+! :speaker_0-kaldi-words
+2 139.41 140.76
+""
+
+! :speaker_0-kaldi-words
+2 140.76 141.33
+"the"
+
+! :speaker_0-kaldi-words
+2 141.33 142.2
+"dinosaur"
+
+! :speaker_0-kaldi-words
+2 142.2 142.23
+""
+
+! :speaker_0-kaldi-words
+2 142.23 142.8
+"started"
+
+! :speaker_0-kaldi-words
+2 142.8 144.06
+""
+
+! :speaker_0-kaldi-words
+2 144.06 144.3
+"went"
+
+! :speaker_0-kaldi-words
+2 144.3 144.39
+"on"
+
+! :speaker_0-kaldi-words
+2 144.39 144.45
+"the"
+
+! :speaker_0-kaldi-words
+2 144.45 144.84
+"floor"
+
+! :speaker_0-kaldi-words
+2 144.84 147.78
+""
+
+! :speaker_0-kaldi-words
+2 147.78 148.37
+"the"
+
+! :speaker_0-kaldi-words
+2 148.37 148.67
+"little"
+
+! :speaker_0-kaldi-words
+2 148.67 149.15
+"boy"
+
+! :speaker_0-kaldi-words
+2 149.15 149.21
+""
+
+! :speaker_0-kaldi-words
+2 149.21 149.69
+"realized"
+
+! :speaker_0-kaldi-words
+2 149.69 149.78
+"he"
+
+! :speaker_0-kaldi-words
+2 149.78 149.93
+"was"
+
+! :speaker_0-kaldi-words
+2 149.93 150.23
+"sad"
+
+! :speaker_0-kaldi-words
+2 150.23 150.41
+"than"
+
+! :speaker_0-kaldi-words
+2 150.41 150.61
+"he"
+
+! :speaker_0-kaldi-words
+2 150.61 150.62
+""
+
+! :speaker_0-kaldi-words
+2 150.62 151.0
+"said"
+
+! :speaker_0-kaldi-words
+2 151.0 152.93
+""
+
+! :speaker_0-kaldi-words
+2 152.93 153.23
+"as"
+
+! :speaker_0-kaldi-words
+2 153.23 153.38
+"in"
+
+! :speaker_0-kaldi-words
+2 153.38 153.44
+"the"
+
+! :speaker_0-kaldi-words
+2 153.44 153.71
+"boy"
+
+! :speaker_0-kaldi-words
+2 153.71 153.97
+"proud"
+
+! :speaker_0-kaldi-words
+2 153.97 154.04
+"of"
+
+! :speaker_0-kaldi-words
+2 154.04 154.1
+"the"
+
+! :speaker_0-kaldi-words
+2 154.1 154.54
+"dinosaur"
+
+! :speaker_0-kaldi-words
+2 154.54 154.55
+""
+
+! :speaker_0-kaldi-words
+2 154.55 154.61
+"in"
+
+! :speaker_0-kaldi-words
+2 154.61 154.7
+"the"
+
+! :speaker_0-kaldi-words
+2 154.7 155.15
+"head"
+
+! :speaker_0-kaldi-words
+2 155.15 156.82
+""
+
+! :speaker_0-kaldi-words
+2 156.82 156.97
+"i"
+
+! :speaker_0-kaldi-words
+2 156.97 157.21
+"then"
+
+! :speaker_0-kaldi-words
+2 157.21 157.51
+"fed"
+
+! :speaker_0-kaldi-words
+2 157.51 157.6
+"the"
+
+! :speaker_0-kaldi-words
+2 157.6 158.05
+"dinosaur"
+
+! :speaker_0-kaldi-words
+2 158.05 158.23
+"his"
+
+! :speaker_0-kaldi-words
+2 158.23 158.74
+"bottle"
+
+! :speaker_0-kaldi-words
+2 158.74 160.22
+""
+
+! :speaker_0-kaldi-words
+2 160.22 160.38
+"and"
+
+! :speaker_0-kaldi-words
+2 160.38 160.54
+"then"
+
+! :speaker_0-kaldi-words
+2 160.54 160.81
+"he"
+
+! :speaker_0-kaldi-words
+2 160.81 161.44
+"loved"
+
+! :speaker_0-kaldi-words
+2 161.44 166.869
+""

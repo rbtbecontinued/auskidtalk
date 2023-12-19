@@ -1,0 +1,69 @@
+"Praat chronological TextGrid text file"
+0 213.889   ! Time domain.
+1   ! Number of tiers.
+"IntervalTier" "Prompt" 0 213.889
+
+! :Prompt
+1 0 75.732
+"sil"
+
+! :Prompt
+1 75.732 131.447
+"picture_task_1"
+
+! :Prompt
+1 131.447 164.229
+"picture_task_2"
+
+! :Prompt
+1 164.229 164.23
+""
+
+! :Prompt
+1 164.23 173.944
+"picture_task_3"
+
+! :Prompt
+1 173.944 180.403
+"picture_task_4"
+
+! :Prompt
+1 180.403 185.393
+"picture_task_5"
+
+! :Prompt
+1 185.393 191.133
+"picture_task_6"
+
+! :Prompt
+1 191.133 195.747
+"picture_task_7"
+
+! :Prompt
+1 195.747 199.129
+"picture_task_8"
+
+! :Prompt
+1 199.129 201.583
+"picture_task_9"
+
+! :Prompt
+1 201.583 203.735
+"picture_task_10"
+
+! :Prompt
+1 203.735 209.179
+"picture_task_11"
+
+! :Prompt
+1 209.179 211.311
+"picture_task_12"
+
+! :Prompt
+1 211.311 213.879
+"picture_task_13"
+
+! :Prompt
+1 213.879 213.889
+"sil"
+

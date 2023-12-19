@@ -1,0 +1,133 @@
+"Praat chronological TextGrid text file"
+0.0 460.984   ! Time domain.
+2   ! Number of tiers.
+"IntervalTier" "speaker_1-kaldi-words" 0.0 460.984
+"IntervalTier" "speaker_0-kaldi-words" 0.0 460.984
+
+! :speaker_1-kaldi-words
+1 0.0 318.12
+""
+
+! :speaker_0-kaldi-words
+2 0.0 344.02
+""
+
+! :speaker_1-kaldi-words
+1 318.12 347.89
+"It that i so now you can tell me the story like some so he's in the."
+
+! :speaker_0-kaldi-words
+2 344.02 357.57
+"Yet he's writing a skateboard will drink milk and he."
+
+! :speaker_1-kaldi-words
+1 347.89 413.06
+""
+
+! :speaker_0-kaldi-words
+2 357.57 358.79
+""
+
+! :speaker_0-kaldi-words
+2 358.79 366.36
+"A fan egg and any taps it only gets to escape skateboard with his milk and goes towards the egg."
+
+! :speaker_0-kaldi-words
+2 366.36 369.48
+""
+
+! :speaker_0-kaldi-words
+2 369.48 375.05
+"Now he's listening to what's inside and waiting to something happens."
+
+! :speaker_0-kaldi-words
+2 375.05 378.94
+""
+
+! :speaker_0-kaldi-words
+2 378.94 382.63
+"The exhaust crack and he gets biscuit."
+
+! :speaker_0-kaldi-words
+2 382.63 386.74
+""
+
+! :speaker_0-kaldi-words
+2 386.74 392.18
+"On a soap opera discussing now."
+
+! :speaker_0-kaldi-words
+2 392.18 395.77
+""
+
+! :speaker_0-kaldi-words
+2 395.77 400.56
+"So they looking and it is library petrified."
+
+! :speaker_0-kaldi-words
+2 400.56 404.03
+""
+
+! :speaker_0-kaldi-words
+2 404.03 414.39
+"Is angry looks angry and once the ninth angry no."
+
+! :speaker_1-kaldi-words
+1 413.06 413.43
+"Radio."
+
+! :speaker_1-kaldi-words
+1 413.43 460.984
+""
+
+! :speaker_0-kaldi-words
+2 414.39 421.06
+""
+
+! :speaker_0-kaldi-words
+2 421.06 423.32
+"The stanza and looks at him."
+
+! :speaker_0-kaldi-words
+2 423.32 426.18
+""
+
+! :speaker_0-kaldi-words
+2 426.18 428.16
+"So it goes down to get in the face."
+
+! :speaker_0-kaldi-words
+2 428.16 432.12
+""
+
+! :speaker_0-kaldi-words
+2 432.12 434.1
+"And he feels bad for the dinosaur."
+
+! :speaker_0-kaldi-words
+2 434.1 439.31
+""
+
+! :speaker_0-kaldi-words
+2 439.31 444.23
+"Hey guys and that's the dinosaur state i so his milk."
+
+! :speaker_0-kaldi-words
+2 444.23 447.43
+""
+
+! :speaker_0-kaldi-words
+2 447.43 451.3
+"Youngest that i saw these milk in the us election."
+
+! :speaker_0-kaldi-words
+2 451.3 456.23
+""
+
+! :speaker_0-kaldi-words
+2 456.23 458.17
+"He's happy the damsel."
+
+! :speaker_0-kaldi-words
+2 458.17 460.984
+""

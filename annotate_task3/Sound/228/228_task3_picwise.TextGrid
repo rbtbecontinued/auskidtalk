@@ -1,0 +1,149 @@
+"Praat chronological TextGrid text file"
+0.0 251.293   ! Time domain.
+2   ! Number of tiers.
+"IntervalTier" "speaker_0-kaldi-words" 0.0 251.293
+"IntervalTier" "speaker_1-kaldi-words" 0.0 251.293
+
+! :speaker_0-kaldi-words
+1 0.0 123.27
+""
+
+! :speaker_1-kaldi-words
+2 0.0 81.8
+""
+
+! :speaker_1-kaldi-words
+2 81.8 125.24
+"Move maybe he said."
+
+! :speaker_0-kaldi-words
+1 123.27 125.25
+"His writing his skateboard."
+
+! :speaker_1-kaldi-words
+2 125.24 133.6
+""
+
+! :speaker_0-kaldi-words
+1 125.25 130.02
+""
+
+! :speaker_0-kaldi-words
+1 130.02 141.48
+"He crashes into the egg the dinosaur egg while he was writing a skateboard and then he got upset."
+
+! :speaker_1-kaldi-words
+2 133.6 133.99
+"Bag."
+
+! :speaker_1-kaldi-words
+2 133.99 147.32
+""
+
+! :speaker_0-kaldi-words
+1 141.48 144.53
+""
+
+! :speaker_0-kaldi-words
+1 144.53 147.77
+"Then he listened to the egg when he fell off."
+
+! :speaker_1-kaldi-words
+2 147.32 147.53
+"Now."
+
+! :speaker_1-kaldi-words
+2 147.53 159.39
+""
+
+! :speaker_0-kaldi-words
+1 147.77 150.9
+""
+
+! :speaker_0-kaldi-words
+1 150.9 158.88
+"And the egg started hatching and started cracking and then lie and then he was shocked."
+
+! :speaker_0-kaldi-words
+1 158.88 162.04
+""
+
+! :speaker_1-kaldi-words
+2 159.39 159.59
+"Year."
+
+! :speaker_1-kaldi-words
+2 159.59 251.293
+""
+
+! :speaker_0-kaldi-words
+1 162.04 175.93
+"And then a little like dinosaur popped out of it and he was like scans in marie dinner it was confused."
+
+! :speaker_0-kaldi-words
+1 175.93 180.28
+""
+
+! :speaker_0-kaldi-words
+1 180.28 190.94
+"And then the dinosaur just hopped out of the egg and the boys like startled to the ground."
+
+! :speaker_0-kaldi-words
+1 190.94 194.89
+""
+
+! :speaker_0-kaldi-words
+1 194.89 202.24
+"And a ran and hid from the dinosaur sorry the dinosaur because he felt the dinosaur am."
+
+! :speaker_0-kaldi-words
+1 202.24 205.51
+""
+
+! :speaker_0-kaldi-words
+1 205.51 209.83
+"But the dinosaur looked around and saw that the guy left."
+
+! :speaker_0-kaldi-words
+1 209.83 212.65
+""
+
+! :speaker_0-kaldi-words
+1 212.65 221.05
+"And that's him lying on the ground like being upset because a cape cod by his calm and his friends."
+
+! :speaker_0-kaldi-words
+1 221.05 223.77
+""
+
+! :speaker_0-kaldi-words
+1 223.77 231.08
+"And then the boy felt sorry and while he was hiding because the dinosaur was sad."
+
+! :speaker_0-kaldi-words
+1 231.08 233.22
+""
+
+! :speaker_0-kaldi-words
+1 233.22 235.56
+"And say when taiwan pat of the dinosaur."
+
+! :speaker_0-kaldi-words
+1 235.56 238.36
+""
+
+! :speaker_0-kaldi-words
+1 238.36 240.64
+"And gave the dinosaur some of his milk."
+
+! :speaker_0-kaldi-words
+1 240.64 243.46
+""
+
+! :speaker_0-kaldi-words
+1 243.46 248.65
+"And he started laughing because the dinosaur looked funny."
+
+! :speaker_0-kaldi-words
+1 248.65 251.293
+""

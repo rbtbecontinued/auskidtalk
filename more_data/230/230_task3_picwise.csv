@@ -1,0 +1,27 @@
+tier_name,tier_idx,task,start,end,text,valid,interval_idx
+speaker_1-kaldi-words,1,picture_task_1,318.12,347.89,It that i so now you can tell me the story like some so he's in the.,1.0,2.0
+speaker_1-kaldi-words,1,picture_task_2,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_3,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_4,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_5,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_6,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_7,413.06,413.43,Radio.,1.0,4.0
+speaker_1-kaldi-words,1,picture_task_8,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_9,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_10,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_11,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_12,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_13,,,,0.0,
+speaker_0-kaldi-words,2,picture_task_1,344.02,357.57,Yet he's writing a skateboard will drink milk and he.,1.0,2.0
+speaker_0-kaldi-words,2,picture_task_2,358.79,366.36,A fan egg and any taps it only gets to escape skateboard with his milk and goes towards the egg.,1.0,4.0
+speaker_0-kaldi-words,2,picture_task_3,369.48,375.05,Now he's listening to what's inside and waiting to something happens.,1.0,6.0
+speaker_0-kaldi-words,2,picture_task_4,378.94,382.63,The exhaust crack and he gets biscuit.,1.0,8.0
+speaker_0-kaldi-words,2,picture_task_5,386.74,392.18,On a soap opera discussing now.,1.0,10.0
+speaker_0-kaldi-words,2,picture_task_6,395.77,400.56,So they looking and it is library petrified.,1.0,12.0
+speaker_0-kaldi-words,2,picture_task_7,404.03,414.39,Is angry looks angry and once the ninth angry no.,1.0,14.0
+speaker_0-kaldi-words,2,picture_task_8,421.06,423.32,The stanza and looks at him.,1.0,16.0
+speaker_0-kaldi-words,2,picture_task_9,426.18,428.16,So it goes down to get in the face.,1.0,18.0
+speaker_0-kaldi-words,2,picture_task_10,432.12,434.1,And he feels bad for the dinosaur.,1.0,20.0
+speaker_0-kaldi-words,2,picture_task_11,439.31,444.23,Hey guys and that's the dinosaur state i so his milk.,1.0,22.0
+speaker_0-kaldi-words,2,picture_task_12,447.43,451.3,Youngest that i saw these milk in the us election.,1.0,24.0
+speaker_0-kaldi-words,2,picture_task_13,456.23,458.17,He's happy the damsel.,1.0,26.0

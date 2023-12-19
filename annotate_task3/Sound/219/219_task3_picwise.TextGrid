@@ -1,0 +1,112 @@
+"Praat chronological TextGrid text file"
+0.0 124.228   ! Time domain.
+1   ! Number of tiers.
+"IntervalTier" "speaker_0-kaldi-words" 0.0 124.228
+
+! :speaker_0-kaldi-words
+1 0.0 57.15
+""
+
+! :speaker_0-kaldi-words
+1 57.15 61.95
+"Arrive very good so now i want you to tell me what happens in each picture."
+
+! :speaker_0-kaldi-words
+1 61.95 64.12
+""
+
+! :speaker_0-kaldi-words
+1 64.12 68.87
+"The boy touch the egg skateboard."
+
+! :speaker_0-kaldi-words
+1 68.87 71.51
+""
+
+! :speaker_0-kaldi-words
+1 71.51 72.86
+"The boy hugs the egg."
+
+! :speaker_0-kaldi-words
+1 72.86 76.52
+""
+
+! :speaker_0-kaldi-words
+1 76.52 81.81
+"The boy hug the egg can you tell me they are correct."
+
+! :speaker_0-kaldi-words
+1 81.81 84.44
+""
+
+! :speaker_0-kaldi-words
+1 84.44 85.67
+"Joins who came down."
+
+! :speaker_0-kaldi-words
+1 85.67 88.37
+""
+
+! :speaker_0-kaldi-words
+1 88.37 90.53
+"The dinosaur was linking the boy."
+
+! :speaker_0-kaldi-words
+1 90.53 93.58
+""
+
+! :speaker_0-kaldi-words
+1 93.58 94.91
+"The family was hiding."
+
+! :speaker_0-kaldi-words
+1 94.91 97.09
+""
+
+! :speaker_0-kaldi-words
+1 97.09 98.44
+"The doors were upset."
+
+! :speaker_0-kaldi-words
+1 98.44 100.53
+""
+
+! :speaker_0-kaldi-words
+1 100.53 101.85
+"The was crying."
+
+! :speaker_0-kaldi-words
+1 101.85 104.1
+""
+
+! :speaker_0-kaldi-words
+1 104.1 105.72
+"The boy was laughing."
+
+! :speaker_0-kaldi-words
+1 105.72 109.11
+""
+
+! :speaker_0-kaldi-words
+1 109.11 110.94
+"Dan blues putting the dinosaur."
+
+! :speaker_0-kaldi-words
+1 110.94 114.85
+""
+
+! :speaker_0-kaldi-words
+1 114.85 117.52
+"We gave he's in the oil to the dinosaur."
+
+! :speaker_0-kaldi-words
+1 117.52 120.87
+""
+
+! :speaker_0-kaldi-words
+1 120.87 122.61
+"The boys are laughing."
+
+! :speaker_0-kaldi-words
+1 122.61 124.228
+""
