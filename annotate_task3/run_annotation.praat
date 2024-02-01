@@ -29,6 +29,7 @@ select df_index
 for i to n_id
 	select df_index
 		id = Get value: i, "id"
+		handle$ = Get value: i, "handle"
 		has_data = Get value: i, "has_data"
 		finished = Get value: i, "finished"
 
@@ -43,9 +44,9 @@ for i to n_id
 	if finished == 1
 		goto CONTINUE
 	endif
-
-	handle$ = Get value: i, "handle"
+	
 	file_tg_child$ = "'path_output$'/'handle$'_child.TextGrid"
+	file_output$ = "'path_output$'/'handle$'_output.csv"
 
 	sound = Read from file: "'path_data$'/'id'/'handle$'.wav"
 	tg_prompt = Read from file: "'path_data$'/'id'/'handle$'_prompt.TextGrid"
@@ -168,6 +169,12 @@ for i to n_id
 	select df_index
 		Set numeric value: i, "finished", 1
 		Save as comma-separated file: file_index$
+	
+	select df_log
+		df_output = Extract rows where column (number): "id", "equal to", id
+	select df_output
+		Save as comma-separated file: file_output$
+		Remove
 	
 	beginPause: "INFO"
 		comment: "[INFO] Annotation for speaker_'id' finished."
