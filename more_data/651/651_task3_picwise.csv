@@ -1,0 +1,27 @@
+tier_name,tier_idx,task,start,end,text,valid,interval_idx
+speaker_1-kaldi-words,1,picture_task_1,76.53,93.58,So now i'm going to show you some pieces from the field and not story from the film third the north sea voice what's the first speech today what's happening.,1.0,2.0
+speaker_1-kaldi-words,1,picture_task_2,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_3,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_4,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_5,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_6,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_7,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_8,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_9,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_10,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_11,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_12,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_13,,,,0.0,
+speaker_0-kaldi-words,2,picture_task_1,94.05,96.3,He was honest guy board.,1.0,2.0
+speaker_0-kaldi-words,2,picture_task_2,100.44,102.21,He bumped into an egg.,1.0,4.0
+speaker_0-kaldi-words,2,picture_task_3,105.53,106.85,His healing the egg.,1.0,6.0
+speaker_0-kaldi-words,2,picture_task_4,109.49,110.75,Degas hatching.,1.0,8.0
+speaker_0-kaldi-words,2,picture_task_5,115.14,116.46,Does a dinosaur.,1.0,10.0
+speaker_0-kaldi-words,2,picture_task_6,121.04,150.64,To the dinosaur play him yes he ran away and hiding he got sick by and he pulled a hockey fries and then had hid behind a tree and then the dinosaur sad.,1.0,12.0
+speaker_0-kaldi-words,2,picture_task_7,155.4,157.65,His hiding behind a tree.,1.0,14.0
+speaker_0-kaldi-words,2,picture_task_8,160.18,161.2,His sad.,1.0,16.0
+speaker_0-kaldi-words,2,picture_task_9,163.91,164.99,His lonely.,1.0,18.0
+speaker_0-kaldi-words,2,picture_task_10,168.52,172.44,The boys said that he met him sad.,1.0,20.0
+speaker_0-kaldi-words,2,picture_task_11,178.81,182.65,His car making him calm down.,1.0,22.0
+speaker_0-kaldi-words,2,picture_task_12,186.6,189.84,For his bottle in his mouth.,1.0,24.0
+speaker_0-kaldi-words,2,picture_task_13,193.83,194.58,He laughed.,1.0,26.0

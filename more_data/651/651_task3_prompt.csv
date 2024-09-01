@@ -1,0 +1,14 @@
+tier_name,tier_idx,start,end,text
+Prompt,1,23.003,98.833,picture_task_1
+Prompt,1,98.834,104.151,picture_task_2
+Prompt,1,104.151,108.767,picture_task_3
+Prompt,1,108.767,112.301,picture_task_4
+Prompt,1,112.302,118.166,picture_task_5
+Prompt,1,118.166,152.834,picture_task_6
+Prompt,1,152.834,158.792,picture_task_7
+Prompt,1,158.792,162.322,picture_task_8
+Prompt,1,162.322,166.206,picture_task_9
+Prompt,1,166.206,174.028,picture_task_10
+Prompt,1,174.028,184.693,picture_task_11
+Prompt,1,184.694,191.28,picture_task_12
+Prompt,1,191.28,197.847,picture_task_13

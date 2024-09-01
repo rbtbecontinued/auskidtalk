@@ -1,0 +1,27 @@
+tier_name,tier_idx,task,start,end,text,valid,interval_idx
+speaker_1-kaldi-words,1,picture_task_1,79.32,107.53,I wasn't was so now i'm going to show you some pictures from the field and i'd like to tell me this story from the film as we go through each picture a voice saying what's happening in this you tell me what's happening in the world are waiting for them awake.,1.0,2.0
+speaker_1-kaldi-words,1,picture_task_2,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_3,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_4,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_5,129.7,130.18,He was.,1.0,4.0
+speaker_1-kaldi-words,1,picture_task_6,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_7,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_8,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_9,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_10,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_11,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_12,,,,0.0,
+speaker_1-kaldi-words,1,picture_task_13,,,,0.0,
+speaker_0-kaldi-words,2,picture_task_1,76.76,105.81,I wasn't any gathering the video maybe those two videos he skateboarding and then he finds an egg.,1.0,2.0
+speaker_0-kaldi-words,2,picture_task_2,110.07,112.5,He bumped into the egg and feel sad.,1.0,4.0
+speaker_0-kaldi-words,2,picture_task_3,115.51,117.61,He here's what's inside the egg.,1.0,6.0
+speaker_0-kaldi-words,2,picture_task_4,121.96,124.03,The egg was cracking.,1.0,8.0
+speaker_0-kaldi-words,2,picture_task_5,129.8,132.56,He was surprised because the dinosaur came out.,1.0,10.0
+speaker_0-kaldi-words,2,picture_task_6,136.2,139.74,He was sad that there was a damsel.,1.0,12.0
+speaker_0-kaldi-words,2,picture_task_7,143.24,145.1,We hide behind the tree.,1.0,14.0
+speaker_0-kaldi-words,2,picture_task_8,149.0,151.55,He looks around for him and feel sad.,1.0,16.0
+speaker_0-kaldi-words,2,picture_task_9,155.64,157.83,The dinosaur lies on the floor.,1.0,18.0
+speaker_0-kaldi-words,2,picture_task_10,160.87,162.76,The baby feel sad.,1.0,20.0
+speaker_0-kaldi-words,2,picture_task_11,165.72,169.62,The babies the baby wants to pat him.,1.0,22.0
+speaker_0-kaldi-words,2,picture_task_12,173.75,175.76,Then he feeds him his milk.,1.0,24.0
+speaker_0-kaldi-words,2,picture_task_13,178.52,180.62,The baby feel happy.,1.0,26.0

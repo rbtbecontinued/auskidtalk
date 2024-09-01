@@ -12,8 +12,8 @@ path_output$ = "'dir$'/output"
 file_index$ = "'path_tmp$'/index.csv"
 file_log$ = "'path_tmp$'/log.csv"
 file_transcription_tagged$ = "'path_tmp$'/transcription_tagged.txt"
-file_track_checkbox$ = "'dir$'/track_checkbox.praat"
-file_mark_overlap$ = "'dir$'/mark_overlap.praat"
+file_track_checkbox$ = "'path_tmp$'/track_checkbox.praat"
+file_mark_overlap$ = "'path_tmp$'/mark_overlap.praat"
 file_checkbox_return$ = "'path_tmp$'/checkbox_return.txt"
 
 
@@ -49,9 +49,16 @@ for i to n_id
 	file_output$ = "'path_output$'/'handle$'_output.csv"
 
 	sound = Read from file: "'path_data$'/'id'/'handle$'.wav"
-	tg_prompt = Read from file: "'path_data$'/'id'/'handle$'_prompt.TextGrid"
-	tg_word = Read from file: "'path_data$'/'id'/'handle$'_kaldi.TextGrid"
-	tg_picwise = Read from file: "'path_data$'/'id'/'handle$'_picwise.TextGrid"
+	tg_input = Read from file: "'path_data$'/'id'/'handle$'.TextGrid"
+	select tg_input
+		tg_prompt = Extract one tier: 1
+	select tg_input
+		tg_word = Extract one tier: 2
+	select tg_input
+		tg_picwise = Extract one tier: 3
+	# tg_prompt = Read from file: "'path_data$'/'id'/'handle$'_prompt.TextGrid"
+	# tg_word = Read from file: "'path_data$'/'id'/'handle$'_kaldi.TextGrid"
+	# tg_picwise = Read from file: "'path_data$'/'id'/'handle$'_picwise.TextGrid"
 	df_picwise = Read Table from comma-separated file: "'path_data$'/'id'/'handle$'_picwise.csv"
 	df_prompt = Read Table from comma-separated file: "'path_data$'/'id'/'handle$'_prompt.csv"
 
@@ -68,17 +75,22 @@ for i to n_id
 			plus tg_merged
 			View & Edit
 
-		beginPause: "Annotate for speaker_'id'."
-			comment: "Select the tier belonging to the child."
-			choice: "tier_child", 1
-			for j to n_tier
-				select tg_word
-					tier_name$ = Get tier name: j
-				option: tier_name$
-			endfor
-		clicked = endPause: "Start annotating", 1
+		## HINT: no need to select tier after pre-screening
+		# beginPause: "Annotate for speaker_'id'."
+		# 	comment: "Select the tier belonging to the child."
+		# 	choice: "tier_child", 1
+		# 	for j to n_tier
+		# 		select tg_word
+		# 			tier_name$ = Get tier name: j
+		# 		option: tier_name$
+		# 	endfor
+		# clicked = endPause: "Start annotating", 1
+		tier_child = 1
 
 		select tg_word
+			## HINT: no need to select tier after pre-screening
+			tier_child$ = Get tier name: tier_child
+
 			tier_name_selected$ = Get tier name: tier_child
 		for j to n_tier
 			select tg_picwise
@@ -185,6 +197,7 @@ for i to n_id
 		Remove
 
 	select sound
+		plus tg_input
 		plus tg_prompt
 		plus tg_word
 		plus tg_picwise
@@ -316,10 +329,8 @@ procedure annotate_single_participant
 	select df_modified
 		Remove
 	select df_modified_
-		df_modified = Extract rows where column (number): "tmax", "less than or equal to", end_prompt
-	select df_modified_
-		Remove
-
+		df_modified = Extract rows where column (number): "tmin", "less than or equal to", end_prompt
+	
 	select df_modified
 		len_df_modified = Get number of rows
 	if len_df_modified == 0
