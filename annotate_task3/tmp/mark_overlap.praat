@@ -18,6 +18,8 @@ beginPause: "Mark overlaps."
 			boolean: "Hes_short" + "_'l'", 0
 		elsif array_transcription_tagged$[l] == "[..]"
 			boolean: "Hes_long" + "_'l'", 0
+		elsif array_transcription_tagged$[l] == "XXX"
+			boolean: "Xxx" + "_'l'", 0
 		else
 			cur_word$ = array_transcription_tagged$[l]
 			len_word = length (cur_word$)
