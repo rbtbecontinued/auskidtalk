@@ -8,7 +8,7 @@ name_tier_3$ = "pic-Hu"
 dir$ = "."
 path_data$ = "'dir$'/Sound"
 path_tmp$ = "'dir$'/tmp"
-path_output$ = "'dir$'/output"
+path_output$ = "'dir$'/corrected"
 file_index$ = "'path_tmp$'/index.csv"
 file_log$ = "'path_tmp$'/log.csv"
 file_transcription_tagged$ = "'path_tmp$'/transcription_tagged.txt"
@@ -325,7 +325,7 @@ procedure annotate_single_participant
 	select tg_modified
 		df_modified = Down to Table: "no", 6, "yes", "no"
 	select df_modified
-		df_modified_ = Extract rows where column (number): "tmin", "greater than or equal to", start_prompt
+		df_modified_ = Extract rows where column (number): "tmax", "greater than or equal to", start_prompt
 	select df_modified
 		Remove
 	select df_modified_
