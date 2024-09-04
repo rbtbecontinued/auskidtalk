@@ -64,6 +64,7 @@ for i to n_id
 
 	select df_index
 		j_start = Get value: i, "idx_prompt"
+		flag_previous_extended = Get value: i, "flag_previous_extended"
 	if j_start == 1
 		select tg_picwise
 			n_tier = Get number of tiers
@@ -173,6 +174,7 @@ for i to n_id
 		select df_index
 			Set numeric value: i, "idx_prompt", j + 1
 			Set string value: i, "tier_child", tier_child$
+			Set numeric value: i, "flag_previous_extended", flag_previous_extended
 			Save as comma-separated file: file_index$
 		select df_log
 			Save as comma-separated file: file_log$
@@ -221,7 +223,7 @@ select df_index
 procedure get_index: .file_index$
 	.has_index = fileReadable(.file_index$)
 	if .has_index == 0
-		.df_index = Create Table with column names: "df_index", 0, "id handle has_data finished idx_prompt tier_child"
+		.df_index = Create Table with column names: "df_index", 0, "id handle has_data finished idx_prompt tier_child flag_previous_extended"
 	else
 		.df_index = Read Table from comma-separated file: .file_index$
 	endif
@@ -264,6 +266,7 @@ procedure update_index
 				Set numeric value: n_id_exist+1, "finished", 0
 				Set numeric value: n_id_exist+1, "idx_prompt", 1
 				Set string value: n_id_exist+1, "tier_child", ""
+				Set numeric value: n_id_exist+1, "flag_previous_extended", 0
 		endif
 	endfor
 	
@@ -346,10 +349,26 @@ procedure annotate_single_participant
 	endif
 
 	for k to len_df_modified
+		if k == 1
+			if flag_previous_extended == 1
+				flag_previous_extended = 0
+				
+				goto NEXT_TURN
+			endif
+		endif
+
 		select df_modified
 			text$ = Get value: k, "text"
 			t_min = Get value: k, "tmin"
 			t_max = Get value: k, "tmax"
+
+			if k == len_df_modified
+				if t_max > end_prompt
+					flag_previous_extended = 1
+				else
+					flag_previous_extended = 0
+				endif
+			endif
 		
 		@split_string: text$, " "
 		len_transcription = split_string.len
@@ -760,6 +779,8 @@ procedure annotate_single_participant
 			Set numeric value: n_row_log, "start_hu", t_min
 			Set numeric value: n_row_log, "end_hu", t_max
 			Set string value: n_row_log, "sound_file", "'handle$'.wav"
+
+		label NEXT_TURN
 	endfor
 	
 	select tg_modified
