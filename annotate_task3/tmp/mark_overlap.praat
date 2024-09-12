@@ -25,7 +25,11 @@ beginPause: "Mark overlaps."
 			len_word = length (cur_word$)
 			end_char$ = mid$ ("'cur_word$'", len_word, 1)
 			if end_char$ == "."
-				boolean: mid$ ("'cur_word$'", 1, len_word - 1) + "_'l'", 0
+				if mid$ ("'cur_word$'", 1, len_word - 1) == "XXX"
+					boolean: "Xxx" + "_'l'", 0
+				else
+					boolean: mid$ ("'cur_word$'", 1, len_word - 1) + "_'l'", 0
+				endif
 			else
 				boolean: mid$ ("'cur_word$'", 1, len_word) + "_'l'", 0
 			endif
@@ -35,7 +39,11 @@ beginPause: "Mark overlaps."
 	len_word = length (cur_word$) - 1
 	end_char$ = mid$ ("'cur_word$'", len_word, 1)
 	if end_char$ == "."
-		boolean: mid$ ("'cur_word$'", 1, len_word - 1) + "_'l'", 0
+		if mid$ ("'cur_word$'", 1, len_word - 1) == "XXX"
+			boolean: "Xxx" + "_'l'", 0
+		else
+			boolean: mid$ ("'cur_word$'", 1, len_word - 1) + "_'l'", 0
+		endif
 	else
 		boolean: mid$ ("'cur_word$'", 1, len_word) + "_'l'", 0
 	endif
