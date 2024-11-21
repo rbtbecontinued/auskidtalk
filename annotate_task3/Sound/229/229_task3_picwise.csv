@@ -1,5 +1,5 @@
 tier_name,tier_idx,task,start,end,text,valid,interval_idx
-speaker_1-kaldi-words,1,picture_task_1,57.96,105.72,Me i heard he got up today again.,1.0,2.0
+speaker_1-kaldi-words,1,picture_task_1,57.88,105.72,Me i cried he got up to them again.,1.0,2.0
 speaker_1-kaldi-words,1,picture_task_2,,,,0.0,
 speaker_1-kaldi-words,1,picture_task_3,,,,0.0,
 speaker_1-kaldi-words,1,picture_task_4,,,,0.0,
@@ -14,7 +14,7 @@ speaker_1-kaldi-words,1,picture_task_12,,,,0.0,
 speaker_1-kaldi-words,1,picture_task_13,,,,0.0,
 speaker_0-kaldi-words,2,picture_task_1,101.22,105.72,Yeah so the little girl and boy was skateboarding.,1.0,2.0
 speaker_0-kaldi-words,2,picture_task_2,107.71,109.92,And then he bumped into the trend egg.,1.0,4.0
-speaker_0-kaldi-words,2,picture_task_3,112.27,116.7,And then he knocked on its to and tried to heal it fills anything inside.,1.0,6.0
+speaker_0-kaldi-words,2,picture_task_3,112.28,116.7,And then he knocked on its to and tried to heal it fills anything inside.,1.0,6.0
 speaker_0-kaldi-words,2,picture_task_4,118.79,120.86,I then they had cracked and what he was shocked.,1.0,8.0
 speaker_0-kaldi-words,2,picture_task_5,122.63,124.94,I got a dinosaur came out he was shocked.,1.0,10.0
 speaker_0-kaldi-words,2,picture_task_6,127.14,130.65,Then the dinosaur store top of the little green boy and he was on the ground.,1.0,12.0

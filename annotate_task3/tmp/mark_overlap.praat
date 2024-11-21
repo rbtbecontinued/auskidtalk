@@ -45,7 +45,11 @@ beginPause: "Mark overlaps."
 			boolean: mid$ ("'cur_word$'", 1, len_word - 1) + "_'l'", 0
 		endif
 	else
-		boolean: mid$ ("'cur_word$'", 1, len_word) + "_'l'", 0
+		if mid$ ("'cur_word$'", 1, len_word) == "XXX"
+			boolean: "Xxx" + "_'l'", 0
+		else
+			boolean: mid$ ("'cur_word$'", 1, len_word) + "_'l'", 0
+		endif
 	endif
 endPause: "Confirm", 1
 
