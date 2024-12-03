@@ -589,63 +589,140 @@ procedure annotate_single_participant
 		endfor
 		text_for_overlap$ = text_for_overlap$ + "  ('l')"
 		
-		line$ = ""
-		for l to len_transcription_tagged
-			# line$ = line$ + array_transcription_tagged$[l]
-			line$ = line$ + replace$ (array_transcription_tagged$[l], "'", "_", 0)
-			if l < len_transcription_tagged
-				line$ = line$ + " "
-			endif
-		endfor
-		writeFileLine: file_transcription_tagged$, line$
-		
-		for l to len_transcription_tagged
-			cur_word$ = replace_regex$ (array_transcription_tagged$[l], "[A-Z]", "\L&", 0)
-			cur_word$ = replace$ (cur_word$, "'", "_", 0)
-			len_word = length (cur_word$)
-			end_char$ = mid$ ("'cur_word$'", len_word, 1)
-			if end_char$ == "."
-				cur_word$ = mid$ ("'cur_word$'", 1, len_word - 1)
-			endif
-			
-			if cur_word$ == "[x]"
-				cur_word$ = "hes_filled"
-			elsif cur_word$ == "[.]"
-				cur_word$ = "hes_short"
-			elsif cur_word$ == "[..]"
-				cur_word$ = "hes_long"
-			endif
-			
-			if l == 1
-				writeFileLine: file_track_checkbox$, "array_checkbox['l'] = '", cur_word$, "_'l'", "'"
-			else
-				appendFileLine: file_track_checkbox$, "array_checkbox['l'] = '", cur_word$, "_'l'", "'"
-			endif
-		endfor
-
-		runScript: file_mark_overlap$
-		
-		line$ = readFile$ (file_checkbox_return$)
-		@split_string: line$, " "
-		for l to len_transcription_tagged
-			array_checkbox[l] = number (split_string.array$[l])
-		endfor
-		
 		text_overlap_tagged$ = ""
-		for l to len_transcription_tagged
-			text_overlap_tagged$ = text_overlap_tagged$ + array_transcription_tagged$[l]
-			if l < len_transcription_tagged
-				text_overlap_tagged$ = text_overlap_tagged$ + " "
+		n_filed_max = 25
+		n_mark_overlap = ceiling (len_transcription_tagged / n_filed_max)
+		for iter_mo to n_mark_overlap
+			l_start = (iter_mo - 1) * n_filed_max + 1
+			if iter_mo < n_mark_overlap
+				l_end = iter_mo * n_filed_max
+			else
+				l_end = len_transcription_tagged
 			endif
 
-			if array_checkbox[l] == 1
-				if l < len_transcription_tagged
-					text_overlap_tagged$ = text_overlap_tagged$ + "[O] "
-				else
-					text_overlap_tagged$ = text_overlap_tagged$ + " [O]"
+			line$ = ""
+			for l from l_start to l_end
+				# line$ = line$ + array_transcription_tagged$[l]
+				line$ = line$ + replace$ (array_transcription_tagged$[l], "'", "_", 0)
+				if l < l_end
+					line$ = line$ + " "
 				endif
+			endfor
+			writeFileLine: file_transcription_tagged$, line$
+
+			for l from l_start to l_end
+				cur_word$ = replace_regex$ (array_transcription_tagged$[l], "[A-Z]", "\L&", 0)
+				cur_word$ = replace$ (cur_word$, "'", "_", 0)
+				len_word = length (cur_word$)
+				end_char$ = mid$ ("'cur_word$'", len_word, 1)
+				if end_char$ == "."
+					cur_word$ = mid$ ("'cur_word$'", 1, len_word - 1)
+				endif
+				
+				if cur_word$ == "[x]"
+					cur_word$ = "hes_filled"
+				elsif cur_word$ == "[.]"
+					cur_word$ = "hes_short"
+				elsif cur_word$ == "[..]"
+					cur_word$ = "hes_long"
+				endif
+
+				ll = l - l_start + 1
+				if ll == 1
+					writeFileLine: file_track_checkbox$, "array_checkbox['ll'] = '", cur_word$, "_'ll'", "'"
+				else
+					appendFileLine: file_track_checkbox$, "array_checkbox['ll'] = '", cur_word$, "_'ll'", "'"
+				endif
+			endfor
+
+			runScript: file_mark_overlap$
+
+			line$ = readFile$ (file_checkbox_return$)
+			@split_string: line$, " "
+			for l to (l_end - l_start + 1)
+				array_checkbox[l] = number (split_string.array$[l])
+			endfor
+			
+			text_overlap_tagged_iter$ = ""
+			for l from l_start to l_end
+				text_overlap_tagged_iter$ = text_overlap_tagged_iter$ + array_transcription_tagged$[l]
+				if l < l_end
+					text_overlap_tagged_iter$ = text_overlap_tagged_iter$ + " "
+				endif
+
+				if array_checkbox[l - l_start + 1] == 1
+					if l < l_end
+						text_overlap_tagged_iter$ = text_overlap_tagged_iter$ + "[O] "
+					else
+						text_overlap_tagged_iter$ = text_overlap_tagged_iter$ + " [O]"
+					endif
+				endif
+			endfor
+
+			if iter_mo < n_mark_overlap
+				text_overlap_tagged$ = text_overlap_tagged$ + text_overlap_tagged_iter$ + " "
+			else
+				text_overlap_tagged$ = text_overlap_tagged$ + text_overlap_tagged_iter$
 			endif
 		endfor
+
+		# line$ = ""
+		# for l to len_transcription_tagged
+		# 	# line$ = line$ + array_transcription_tagged$[l]
+		# 	line$ = line$ + replace$ (array_transcription_tagged$[l], "'", "_", 0)
+		# 	if l < len_transcription_tagged
+		# 		line$ = line$ + " "
+		# 	endif
+		# endfor
+		# writeFileLine: file_transcription_tagged$, line$
+		# 
+		# for l to len_transcription_tagged
+		# 	cur_word$ = replace_regex$ (array_transcription_tagged$[l], "[A-Z]", "\L&", 0)
+		# 	cur_word$ = replace$ (cur_word$, "'", "_", 0)
+		# 	len_word = length (cur_word$)
+		# 	end_char$ = mid$ ("'cur_word$'", len_word, 1)
+		# 	if end_char$ == "."
+		# 		cur_word$ = mid$ ("'cur_word$'", 1, len_word - 1)
+		# 	endif
+		# 	
+		# 	if cur_word$ == "[x]"
+		# 		cur_word$ = "hes_filled"
+		# 	elsif cur_word$ == "[.]"
+		# 		cur_word$ = "hes_short"
+		# 	elsif cur_word$ == "[..]"
+		# 		cur_word$ = "hes_long"
+		# 	endif
+		# 	
+		# 	if l == 1
+		# 		writeFileLine: file_track_checkbox$, "array_checkbox['l'] = '", cur_word$, "_'l'", "'"
+		# 	else
+		# 		appendFileLine: file_track_checkbox$, "array_checkbox['l'] = '", cur_word$, "_'l'", "'"
+		# 	endif
+		# endfor
+		# 
+		# runScript: file_mark_overlap$
+		# 
+		# line$ = readFile$ (file_checkbox_return$)
+		# @split_string: line$, " "
+		# for l to len_transcription_tagged
+		# 	array_checkbox[l] = number (split_string.array$[l])
+		# endfor
+		# 
+		# text_overlap_tagged$ = ""
+		# for l to len_transcription_tagged
+		# 	text_overlap_tagged$ = text_overlap_tagged$ + array_transcription_tagged$[l]
+		# 	if l < len_transcription_tagged
+		# 		text_overlap_tagged$ = text_overlap_tagged$ + " "
+		# 	endif
+		# 
+		# 	if array_checkbox[l] == 1
+		# 		if l < len_transcription_tagged
+		# 			text_overlap_tagged$ = text_overlap_tagged$ + "[O] "
+		# 		else
+		# 			text_overlap_tagged$ = text_overlap_tagged$ + " [O]"
+		# 		endif
+		# 	endif
+		# endfor
 		
 		# beginPause: "Mark overlaps for 'prompt$', speaker_'id'."
 		# 	comment: "[Step 3] Mark overlaps."

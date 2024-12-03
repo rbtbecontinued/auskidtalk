@@ -35,8 +35,10 @@ beginPause: "Mark overlaps."
 			endif
 		endif
 	endfor
+
 	cur_word$ = array_transcription_tagged$[l]
 	len_word = length (cur_word$) - 1
+	cur_word$ = mid$ ("'cur_word$'", 1, len_word)
 	end_char$ = mid$ ("'cur_word$'", len_word, 1)
 	if end_char$ == "."
 		if mid$ ("'cur_word$'", 1, len_word - 1) == "XXX"
@@ -45,10 +47,16 @@ beginPause: "Mark overlaps."
 			boolean: mid$ ("'cur_word$'", 1, len_word - 1) + "_'l'", 0
 		endif
 	else
-		if mid$ ("'cur_word$'", 1, len_word) == "XXX"
+		if cur_word$ == "[X]"
+			boolean: "Hes_filled" + "_'l'", 0
+		elsif cur_word$ == "[.]"
+			boolean: "Hes_short" + "_'l'", 0
+		elsif cur_word$ == "[..]"
+			boolean: "Hes_long" + "_'l'", 0
+		elsif cur_word$ == "XXX"
 			boolean: "Xxx" + "_'l'", 0
 		else
-			boolean: mid$ ("'cur_word$'", 1, len_word) + "_'l'", 0
+			boolean: cur_word$ + "_'l'", 0
 		endif
 	endif
 endPause: "Confirm", 1
